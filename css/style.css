@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	background-image: url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/Q3X736G951.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Lemonada', cursive;
+}
+h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+}
+h2 {
+	font-size: 30px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+	width: 300px;
+	text-align: center;
+	border-radius: 5px;
+}
+.column {
+	display: inline-block;
+	float: left;
+	width: 25%;
+
+}
+.column-container {
+	padding-top: 50px;
+}
+.add-card {
+	
+	font-size: 15px;
+}
+.card {
+	list-style-type: none;
+}
